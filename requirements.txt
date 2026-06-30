@@ -1,0 +1,12 @@
+torch>=1.12.0
+numpy
+scipy
+matplotlib
+trimesh
+joblib
+opencv-python
+tensorboardX
+tqdm
+ftfy
+regex
+git+https://github.com/openai/CLIP.git

@@ -1,0 +1,48 @@
+# Model weights & checkpoints
+*.pth
+*.pt
+*.ckpt
+saved_checkpoints/
+
+# SMPL body models (users should download separately)
+body_models/
+
+# Data files
+*.npy
+*.npz
+*.p
+*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# TensorBoard logs
+runs/
+
+# Evaluation outputs
+eval_*/
+tmp_results/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Blender temp
+*.blend1

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 OMP_NUM_THREADS=1 torchrun --rdzv_backend=c10d --rdzv_endpoint=localhost:29505 --nproc_per_node=4 train.py
